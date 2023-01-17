@@ -14,6 +14,7 @@ public class Tokenizer {
     private enum State {
         CHAR, NUMBER, EOF
     }
+//    соответсвует START, NUMBER и EOF на картинке. для ERROR state не нужен
 
     private State state;
     private List<Token> tokens;
